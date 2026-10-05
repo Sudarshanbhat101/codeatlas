@@ -5,11 +5,7 @@ What: api (Node.js), ai-service (Python), web (React) live in one repository.
 Why: easier to learn and to run everything together while I am the only developer.
 Alternatives: separate repos for each part.
 Tradeoff: one repo gets bigger over time, but it is simpler to manage right now.
-## Decision 2: Node.js LTS with ES modules
-What: The API runs on Node 24 (LTS) and uses import/export syntax ("type": "module").
-Why: Production apps should run on LTS versions because they get security fixes for years. My first install was v25, which is a short-lived release, so I replaced it. ES modules are the modern standard and match what React uses.
-Alternatives: the older require() style (CommonJS), or a non-LTS Node version.
-Tradeoff: some old tutorials and packages still use require(), so I need to translate them.
+
 
 ## Decision 3: Express as the web framework
 What: The API is built with Express.
