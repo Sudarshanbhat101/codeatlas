@@ -1,0 +1,11 @@
+{
+  "name": "codeatlas-api",
+  "version": "0.1.0",
+  "description": "Node.js API for CodeAtlas: auth, repositories and indexing jobs",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "MIT"
+}
